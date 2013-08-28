@@ -25,6 +25,13 @@
 		041FA2FE17CB94C200C802AF /* XYFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FA2FD17CB94C200C802AF /* XYFoundationTests.m */; };
 		041FA30817CB952900C802AF /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FA30717CB952900C802AF /* libsqlite3.0.dylib */; };
 		041FA30A17CB95C100C802AF /* person.db in Resources */ = {isa = PBXBuildFile; fileRef = 041FA30917CB95C100C802AF /* person.db */; };
+		049A88CF17CE131A0003C1DE /* XYObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049A88CD17CE131A0003C1DE /* XYObject.cpp */; };
+		049A88D217CE147C0003C1DE /* XYString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049A88D017CE147C0003C1DE /* XYString.cpp */; };
+		049A88D517CE14890003C1DE /* XYData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049A88D317CE14890003C1DE /* XYData.cpp */; };
+		049A88D817CE149B0003C1DE /* XYNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049A88D617CE149A0003C1DE /* XYNumber.cpp */; };
+		049A88DB17CE14BE0003C1DE /* XYArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049A88D917CE14BE0003C1DE /* XYArray.cpp */; };
+		049A88DE17CE14CD0003C1DE /* XYDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049A88DC17CE14CD0003C1DE /* XYDictionary.cpp */; };
+		049A88E117CE1A760003C1DE /* XYAutoreleasePool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049A88DF17CE1A750003C1DE /* XYAutoreleasePool.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +69,22 @@
 		041FA2FD17CB94C200C802AF /* XYFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYFoundationTests.m; sourceTree = "<group>"; };
 		041FA30717CB952900C802AF /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		041FA30917CB95C100C802AF /* person.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = person.db; sourceTree = "<group>"; };
+		049A88CD17CE131A0003C1DE /* XYObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XYObject.cpp; sourceTree = "<group>"; };
+		049A88CE17CE131A0003C1DE /* XYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYObject.h; sourceTree = "<group>"; };
+		049A88D017CE147C0003C1DE /* XYString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XYString.cpp; sourceTree = "<group>"; };
+		049A88D117CE147C0003C1DE /* XYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYString.h; sourceTree = "<group>"; };
+		049A88D317CE14890003C1DE /* XYData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XYData.cpp; sourceTree = "<group>"; };
+		049A88D417CE14890003C1DE /* XYData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYData.h; sourceTree = "<group>"; };
+		049A88D617CE149A0003C1DE /* XYNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XYNumber.cpp; sourceTree = "<group>"; };
+		049A88D717CE149B0003C1DE /* XYNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNumber.h; sourceTree = "<group>"; };
+		049A88D917CE14BE0003C1DE /* XYArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XYArray.cpp; sourceTree = "<group>"; };
+		049A88DA17CE14BE0003C1DE /* XYArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYArray.h; sourceTree = "<group>"; };
+		049A88DC17CE14CD0003C1DE /* XYDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XYDictionary.cpp; sourceTree = "<group>"; };
+		049A88DD17CE14CD0003C1DE /* XYDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDictionary.h; sourceTree = "<group>"; };
+		049A88DF17CE1A750003C1DE /* XYAutoreleasePool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XYAutoreleasePool.cpp; sourceTree = "<group>"; };
+		049A88E017CE1A750003C1DE /* XYAutoreleasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAutoreleasePool.h; sourceTree = "<group>"; };
+		049A88E217CE20400003C1DE /* XYMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYMacros.h; sourceTree = "<group>"; };
+		049A88E317CE20E90003C1DE /* XYHeads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYHeads.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +146,7 @@
 		041FA2D217CB94C200C802AF /* XYFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				049A88CC17CE12F70003C1DE /* XYFoundation */,
 				041FA2DB17CB94C200C802AF /* AppDelegate.h */,
 				041FA2DC17CB94C200C802AF /* AppDelegate.m */,
 				041FA2E417CB94C200C802AF /* MainStoryboard.storyboard */,
@@ -165,6 +189,29 @@
 				041FA2F917CB94C200C802AF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049A88CC17CE12F70003C1DE /* XYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				049A88CD17CE131A0003C1DE /* XYObject.cpp */,
+				049A88CE17CE131A0003C1DE /* XYObject.h */,
+				049A88D017CE147C0003C1DE /* XYString.cpp */,
+				049A88D117CE147C0003C1DE /* XYString.h */,
+				049A88D317CE14890003C1DE /* XYData.cpp */,
+				049A88D417CE14890003C1DE /* XYData.h */,
+				049A88D617CE149A0003C1DE /* XYNumber.cpp */,
+				049A88D717CE149B0003C1DE /* XYNumber.h */,
+				049A88D917CE14BE0003C1DE /* XYArray.cpp */,
+				049A88DA17CE14BE0003C1DE /* XYArray.h */,
+				049A88DC17CE14CD0003C1DE /* XYDictionary.cpp */,
+				049A88DD17CE14CD0003C1DE /* XYDictionary.h */,
+				049A88DF17CE1A750003C1DE /* XYAutoreleasePool.cpp */,
+				049A88E017CE1A750003C1DE /* XYAutoreleasePool.h */,
+				049A88E217CE20400003C1DE /* XYMacros.h */,
+				049A88E317CE20E90003C1DE /* XYHeads.h */,
+			);
+			path = XYFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +328,13 @@
 				041FA2D917CB94C200C802AF /* main.m in Sources */,
 				041FA2DD17CB94C200C802AF /* AppDelegate.m in Sources */,
 				041FA2E917CB94C200C802AF /* ViewController.mm in Sources */,
+				049A88CF17CE131A0003C1DE /* XYObject.cpp in Sources */,
+				049A88D217CE147C0003C1DE /* XYString.cpp in Sources */,
+				049A88D517CE14890003C1DE /* XYData.cpp in Sources */,
+				049A88D817CE149B0003C1DE /* XYNumber.cpp in Sources */,
+				049A88DB17CE14BE0003C1DE /* XYArray.cpp in Sources */,
+				049A88DE17CE14CD0003C1DE /* XYDictionary.cpp in Sources */,
+				049A88E117CE1A760003C1DE /* XYAutoreleasePool.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +515,7 @@
 				041FA30317CB94C200C802AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041FA30417CB94C200C802AF /* Build configuration list for PBXNativeTarget "XYFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +524,7 @@
 				041FA30617CB94C200C802AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
